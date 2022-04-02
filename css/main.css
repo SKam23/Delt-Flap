@@ -196,12 +196,22 @@ Screen - Game
    padding: 1px;
 }
 
+#DTDLogo
+{
+   position: absolute;
+   top: 100px;
+   left: 515px;
+   width: 376px;
+   height: 198px;
+   background-image: url('../assets/DTDLogo.png');
+}
+
 #splash
 {
    position: absolute;
    opacity: 0;
-   top: 300px;
-   left: 600px;
+   top: 400px;
+   left: 610px;
    width: 188px;
    height: 170px;
    background-image: url('../assets/splash.png');
