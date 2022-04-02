@@ -45,8 +45,8 @@
    to { background-position: 0px -96px; }
 }
 @keyframes animBird {
-   from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   from { background-position: 0; }
+   to { background-position: -100%; }
 }
 
 @-webkit-keyframes animPipe {
@@ -304,12 +304,12 @@ Screen - Game
 .bird
 {
    position: absolute;
-   width: 34px;
-   height: 24px;
-   background-image: url('../assets/bird.png');
+   width: 40px;
+   height: 38px;
+   background-image: url('../assets/marioo.png');
 
-   -webkit-animation: animBird 300ms steps(4) infinite;
-   animation: animBird 300ms steps(4) infinite;
+   -webkit-animation: animBird 300ms steps(3) infinite;
+   animation: animBird 300ms steps(3) infinite;
 }
 
 .pipe
