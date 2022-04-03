@@ -16,10 +16,11 @@ void setup() {
 void loop() {
   buttonState = digitalRead(button);
   if (buttonState == HIGH) {
-    Keyboard.write(32); // Keyboard write for a blank space, ASCII
+    Keyboard.write(32); // Keyboard write for a blank space key press, ASCII
     digitalWrite(led, HIGH); // LED high when button is engaged
   }
   else {
+    Keyboard.write(0); // Keyboard write for null, ASCII
     digitalWrite(led, LOW); // LED low when button is not engaged
   }
 }
