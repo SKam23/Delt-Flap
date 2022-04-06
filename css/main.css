@@ -45,7 +45,7 @@
    to { background-position: 0px -96px; }
 }
 @keyframes animBird {
-   from { background-position: 0; }
+   from { background-position: 0;}
    to { background-position: -100%; }
 }
 
@@ -304,8 +304,8 @@ Screen - Game
 .bird
 {
    position: absolute;
-   width: 40px;
-   height: 38px;
+   width: 80px;
+   height: 76px;
    background-image: url('../assets/marioo.png');
 
    -webkit-animation: animBird 300ms steps(3) infinite;
